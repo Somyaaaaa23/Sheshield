@@ -14,9 +14,9 @@ import os
 stop_capture = False
 
 # Email configuration
-EMAIL_ADDRESS = 'usomyaa10@gmail.com'  # Replace with your email address
-EMAIL_PASSWORD = 'Jaipur@2014somya'  # Replace with your email password
-RECIPIENT_EMAIL = 'somyaveidik243@gmail.com'  # Replace with the recipient's email address
+EMAIL_ADDRESS = ''  # Replace with your email address
+EMAIL_PASSWORD = ''  # Replace with your email password
+RECIPIENT_EMAIL = ''  # Replace with the recipient's email address
 SMTP_SERVER = 'smtp.gmail.com'  # Replace with your SMTP server (e.g., 'smtp.gmail.com' for Gmail)
 SMTP_PORT = 587  # Replace with your SMTP port (587 for TLS)
 
