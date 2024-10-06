@@ -19,8 +19,8 @@ def connect_db():
         conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='SOMYA@2004',  # Replace with your MySQL password
-            database='sheshield_db'
+            password='',  # Replace with your MySQL password
+            database=''#database name
         )
         return conn
     except mysql.connector.Error as err:
@@ -106,8 +106,8 @@ def get_location():
 
 # Function to send emergency SMS using Twilio
 def send_emergency_sms(emergency_contacts):
-    account_sid = 'AC37b82fc38908e4c0e3402e06a679f11d'  # Replace with your Twilio account SID
-    auth_token = '743498a05adea8e29586fac264b7e85a'    # Replace with your Twilio auth token
+    account_sid = ''  # Replace with your Twilio account SID
+    auth_token = ''    # Replace with your Twilio auth token
     client = Client(account_sid, auth_token)
 
     message_body = "Emergency! Help needed. This is an SOS alert."
