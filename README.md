@@ -1,4 +1,4 @@
-# SheShield
+# saviher
 
 A Flutter-based application focused on women's safety and empowerment.
 
@@ -67,3 +67,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Thanks to all contributors who have helped shape SheShield
 - Special thanks to the Flutter community for their excellent documentation and support
+
